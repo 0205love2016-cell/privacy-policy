@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MenuSnap - 隱私權政策 / Privacy Policy</title>
+  <style>
+    :root {
+      --primary-color: #4F46E5;
+      --text-main: #1F2937;
+      --text-muted: #4B5563;
+      --bg-page: #F9FAFB;
+      --bg-card: #FFFFFF;
+      --border-color: #E5E7EB;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 32px;
+      background: var(--bg-card);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      border: 1px solid var(--border-color);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: var(--primary-color);
+      margin: 0;
+    }
+    .lang-toggle {
+      display: flex;
+      gap: 8px;
+    }
+    .lang-btn {
+      padding: 6px 14px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border: 1px solid var(--primary-color);
+      border-radius: 6px;
+      background: #FFFFFF;
+      color: var(--primary-color);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary-color);
+      color: #FFFFFF;
+    }
+    .meta-info {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #111827;
+      border-left: 4px solid var(--primary-color);
+      padding-left: 10px;
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .highlight-box {
+      background-color: #EEF2FF;
+      border: 1px solid #C7D2FE;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+    .highlight-box p {
+      margin: 0;
+      color: #3730A3;
+      font-weight: 500;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      font-size: 0.875rem;
+      color: #9CA3AF;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1 id="app-title">MenuSnap 隱私權政策</h1>
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btn-zh" onclick="setLanguage('zh')">繁體中文</button>
+        <button class="lang-btn" id="btn-en" onclick="setLanguage('en')">English</button>
+      </div>
+    </div>
+
+    <!-- 繁體中文內容 -->
+    <div id="content-zh">
+      <div class="meta-info">
+        <strong>生效日期：</strong>2026 年 10 月 1 日<br>
+        <strong>最後更新日期：</strong>2026 年 10 月 7 日<br>
+        <strong>開發者團隊：</strong>MenuSnap Development Team<br>
+        <strong>聯絡信箱：</strong><a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a>
+      </div>
+
+      <div class="highlight-box">
+        <p>MenuSnap 採用「零個資留存（Zero Retention）」架構設計。我們尊重並極力保護您的隱私，拍攝之菜單影像僅在即時辨識當下進行記憶體處理，辨識完成後即刻銷毀，絕不留存照片，亦不將其販售或用於第三方商業廣告追蹤。</p>
+      </div>
+
+      <h2>一、我們蒐集哪些資料</h2>
+      <p>MenuSnap 僅蒐集維持應用程式核心翻譯功能所絕對必要的最低限度資訊：</p>
+      <ul>
+        <li><strong>相機拍攝之菜單影像</strong>：僅在您主動點擊拍照時讀取，用於辨識菜餚名稱、描述與標價。在傳輸至辨識管道前，系統會自動抹除所有 EXIF（地理位置、相機型號等中繼資料）。</li>
+        <li><strong>裝置匿名識別代幣（Anonymous Client ID）</strong>：由本機隨機產生的匿名雜湊代幣，僅用於記錄您的剩餘免費額度與購買通行證點數餘額，該代幣不包含您的姓名、手機號碼、電子信箱或任何可識別身分的資訊。</li>
+        <li><strong>本機消費紀錄（本地儲存）</strong>：您點選的菜單品項、換算幣別與同桌分帳結果僅儲存在您裝置的本地 SQLite / 快取中，不會自動上傳至雲端永久儲存。</li>
+      </ul>
+
+      <h2>二、裝置權限使用說明</h2>
+      <p>依據 Google Play 開發者權限最小化政策，MenuSnap 僅要求以下必要系統權限：</p>
+      <ul>
+        <li><strong>相機權限（CAMERA）</strong>：僅用於即時拍攝紙本或電子螢幕菜單。本應用程式絕不在背景存取相機，亦不具備人臉辨識或生物特徵蒐集功能。</li>
+        <li><strong>網路存取權限（INTERNET / ACCESS_NETWORK_STATE）</strong>：用於與安全伺服器（TLS 1.3 加密傳輸）進行菜單文字 AI 翻譯解析、即時匯率查詢以及 Google Play 內購收據驗證。</li>
+      </ul>
+
+      <h2>三、第三方服務與資料分享</h2>
+      <p>我們絕不將您的個人資料出租或販售給任何第三方機構或廣告商。我們僅在必要功能範圍內與以下服務安全對接：</p>
+      <ul>
+        <li><strong>Google Play In-App Billing（應用程式內購）</strong>：所有的通行證交易扣款均由 Google Play 官方結算管道直接處理。本應用程式絕不會接觸、亦不留存您的信用卡號或銀行帳戶等任何敏感金融資訊。</li>
+        <li><strong>AI 翻譯推理服務</strong>：影像經 EXIF 抹除後透過高規格加密連線發送至後端進行文字識別。處理流程符合商業隱私規範，資料不會被用於公開訓練公共模型。</li>
+      </ul>
+
+      <h2>四、資料保存與刪除政策（Data Deletion）</h2>
+      <ul>
+        <li><strong>暫存照片即時抹除</strong>：菜單解析完成後，本機暫存目錄與伺服器記憶體中的圖片資料立即永久抹除。</li>
+        <li><strong>使用者主動清除權利</strong>：您可以隨時透過 App 內的「設定」→「資料管理」→「清除本機紀錄」，一鍵抹除裝置上的所有菜單歷史、分帳試算與本地快取。</li>
+        <li><strong>刪除請求窗口</strong>：若您需要徹底刪除與裝置匿名代幣相關聯的所有伺服端計數紀錄，可隨時來信至 <a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a>，我們將於 7 個工作天內完成抹除。</li>
+      </ul>
+
+      <h2>五、兒童隱私保護（Children's Privacy）</h2>
+      <p>MenuSnap 為一般旅行者與美食愛好者設計之工具軟體，不以未滿 13 歲（或您所在國家法律規定之法定年齡）之兒童為目標族群，我們亦不會刻意蒐集兒童之個人資料。</p>
+
+      <h2>六、政策更新與聯絡我們</h2>
+      <p>我們可能會因應法規變更或技術架構調整更新本隱私權政策。最新版本將始終發布於本頁面。若您對本隱私權政策有任何疑問，請透過以下信箱與我們聯繫：</p>
+      <p><strong>客服與隱私權支援信箱：</strong><a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a></p>
+    </div>
+
+    <!-- English Content -->
+    <div id="content-en" style="display: none;">
+      <div class="meta-info">
+        <strong>Effective Date:</strong> October 1, 2026<br>
+        <strong>Last Updated:</strong> October 7, 2026<br>
+        <strong>Developer:</strong> MenuSnap Development Team<br>
+        <strong>Contact:</strong> <a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a>
+      </div>
+
+      <div class="highlight-box">
+        <p>MenuSnap is built upon a "Zero-Retention" architectural design. We strictly respect and protect your privacy. Captured menu images are processed exclusively in volatile memory during real-time recognition and purged immediately afterwards. We never retain photos, nor sell or share data with third-party advertising trackers.</p>
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>MenuSnap collects only the minimal information strictly required to deliver core menu translation functionality:</p>
+      <ul>
+        <li><strong>Camera-Captured Menu Images</strong>: Accessed exclusively when you take a photo to recognize dishes, descriptions, and prices. Before transmission, all EXIF metadata (e.g., GPS coordinates, camera specs) is automatically stripped.</li>
+        <li><strong>Anonymous Device Token (Client ID)</strong>: A random hash generated locally solely to maintain your balance of free trial scans and travel pass points. This token contains no personally identifiable information (PII) such as name, phone number, or email.</li>
+        <li><strong>Local Order History (On-Device Storage)</strong>: Saved menu items, currency conversions, and split-bill calculations are stored locally in your device's SQLite/cache storage and never automatically uploaded to cloud servers.</li>
+      </ul>
+
+      <h2>2. Device Permissions and Usage</h2>
+      <p>Following the Principle of Least Privilege mandated by Google Play, MenuSnap requests only essential Android permissions:</p>
+      <ul>
+        <li><strong>Camera Permission (CAMERA)</strong>: Required strictly for taking photos of paper or digital menus in real time. We never access the camera in the background, nor collect facial recognition or biometric data.</li>
+        <li><strong>Internet Access (INTERNET / ACCESS_NETWORK_STATE)</strong>: Used for encrypted TLS 1.3 communication with secure API endpoints to perform AI menu parsing, real-time foreign exchange rate retrieval, and Google Play receipt validation.</li>
+      </ul>
+
+      <h2>3. Third-Party Services and Data Sharing</h2>
+      <p>We do not sell, rent, or lease your personal information. Data is shared exclusively with necessary infrastructure providers under strict terms:</p>
+      <ul>
+        <li><strong>Google Play In-App Billing</strong>: All in-app purchase transactions are processed directly by Google Play. MenuSnap never handles, stores, or accesses sensitive financial details like credit card or bank account numbers.</li>
+        <li><strong>AI Inference Services</strong>: Sanitized images (EXIF removed) are transmitted via encrypted connections for parsing. Data is processed under commercial terms and is not used to train public machine learning models.</li>
+      </ul>
+
+      <h2>4. Data Retention and Deletion Rights</h2>
+      <ul>
+        <li><strong>Instant Image Purge</strong>: Once parsing is complete, temporary files in the app cache and server memory are permanently deleted.</li>
+        <li><strong>User-Initiated Local Deletion</strong>: You can erase all local scan history, order drafts, and cached records at any time via "Settings" &gt; "Data Management" &gt; "Clear Local Records".</li>
+        <li><strong>Server Deletion Requests</strong>: To request complete deletion of any server-side count associated with your anonymous token, email us at <a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a>. Requests will be fulfilled within 7 business days.</li>
+      </ul>
+
+      <h2>5. Children's Privacy</h2>
+      <p>MenuSnap is a general-purpose utility designed for travelers and diners. We do not knowingly target or collect personal information from children under the age of 13 (or applicable local age threshold).</p>
+
+      <h2>6. Changes and Contact Information</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in legal or operational requirements. The latest version will always be posted on this page. If you have questions regarding this policy, please reach out to:</p>
+      <p><strong>Support &amp; Privacy Contact:</strong> <a href="mailto:menusnap.app@gmail.com">menusnap.app@gmail.com</a></p>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 MenuSnap. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    function setLanguage(lang) {
+      const zhContent = document.getElementById('content-zh');
+      const enContent = document.getElementById('content-en');
+      const btnZh = document.getElementById('btn-zh');
+      const btnEn = document.getElementById('btn-en');
+      const appTitle = document.getElementById('app-title');
+
+      if (lang === 'en') {
+        zhContent.style.display = 'none';
+        enContent.style.display = 'block';
+        btnZh.classList.remove('active');
+        btnEn.classList.add('active');
+        appTitle.textContent = 'MenuSnap Privacy Policy';
+        document.documentElement.lang = 'en';
+      } else {
+        zhContent.style.display = 'block';
+        enContent.style.display = 'none';
+        btnEn.classList.remove('active');
+        btnZh.classList.add('active');
+        appTitle.textContent = 'MenuSnap 隱私權政策';
+        document.documentElement.lang = 'zh-Hant';
+      }
+    }
+  </script>
+</body>
+</html>
